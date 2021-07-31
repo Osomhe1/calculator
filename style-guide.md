@@ -31,7 +31,7 @@ The designs were created to the following widths:
 #### Text
 
 - Very dark grayish blue: hsl(221, 14%, 31%)
-- White: hsl(0, 0, 100%)
+- White: hsl(0, 0, 100%) ;
 
 ### Theme 2
 

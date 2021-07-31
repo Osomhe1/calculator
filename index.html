@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/style.css">
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,10 +17,105 @@
 <body>
 
 
+  <div class="calculator">
+
+    <!-- CALCULATOR HEADING -->
+    <div class="calc-heading calc-text1-t1 section-div">
+
+      <div class="container" >
+        <h2>calc</h2>
+      </div>
+
+      <div class="right-cont">
+
+        <fieldset>
+          <div><legend class="toggle-text">THEME</legend></div>
+            
+
+            <div class="toggle-cont">
+              <div class="checkbox-cont">
+                <div class="checkbox">
+                  <label for="t1">1</label>
+                  <div class="check t1 visible"><input type="radio" name="toggle" id="t1"></div>
+                </div>
+                <div class="checkbox">
+                  <label for="t2">2</label>
+                  <div class="check t2"><input type="radio" name="toggle" id="t2"></div>
+                </div>
+                <div class="checkbox">
+                  <label for="t3">3</label>
+                  <div class="check t3"><input type="radio" name="toggle" id="t3"></div>
+                </div>
+              </div>
+              <div class="button-cont calc-cont-t1"></div>
+            </div>
+
+        </fieldset>
+
+      </div>
+
+    </div>
+
+
+    <!-- CALCULATOR SCREEN -->
+    <div class="calc-screen-container calc-text1-t1 calcS-cont-t1 section-div">
+      <!-- <div class="calc-screen">
+        <input type="" value="" disabled>
+      </div> -->
+              <input type="text" disabled class="calc-screen">
+    </div>
+
+
+    <!-- CALCULATOR BODY -->
+    <div class="calc-body-container keypads calc-cont-t1 section-div">
+
+      <button type="button"  class="calc-button cB-t1 numpad" value="7">7</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="8">8</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="9">9</button>
+
+      <button type="button" class="worded-button wB-t1 delete" value="delet">Del</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="4">4</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="5">5</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="6">6</button>
+
+      <button type="button" class="calc-button cB-t1 operator" value="+">&plus;</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="1">1</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="2">2</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="3">3</button>
+
+      <button type="button" class="calc-button cB-t1 operator" value="-">&minus;</button>
+
+      <button type="button" class="calc-button cB-t1 decimal numpad" value=".">.</button>
+
+      <button type="button" class="calc-button cB-t1 numpad" value="0">0</button>
+
+      <button type="button"  value="/" class="calc-button cB-t1 operator">&divide;</button>
+
+      <button type="button" value="*" class="calc-button cB-t1 operator">&times;</button>
+
+      <button type="button" class="bottom worded-button  wB-t1 reset" value="all-clear">RESET</button>
+
+      <button type="button" value="=" class="bottom worded-button operator equals e1">=</button>
+
+    </div>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Osomhe Aleogho</a>.
   </div>
+</div>
+
+  <!-- <script src="/JS/main.js"></script> -->
+  <script src="/JS/theme.js"></script>
+  <script src="/JS/app.js"></script>
 </body>
 </html>
